@@ -1,0 +1,202 @@
+html {
+  height: 100%;
+  vertical-align: baseline;
+}
+
+body,
+#map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-tooltip.my-labels {
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  font-weight: bold;
+  font-size: 15px;
+  z-index: 1000;
+  color: black;
+  white-space: normal;
+  line-height: 1.1em;
+  text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+}
+
+.roadlabels {
+  font-weight: bold;
+  letter-spacing: 3px;
+
+}
+
+.leaflet-container {
+  font: 15px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
+}
+
+@media (min-width: 1281px) {
+  .leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 1000;
+    color: black;
+    white-space: normal;
+    line-height: 1.1em;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+  }
+
+  .roadlabels {
+    font-weight: bold;
+    letter-spacing: 3px;
+
+  }
+
+  .leaflet-container {
+    font: 15px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    z-index: 1000;
+    color: black;
+    white-space: normal;
+    line-height: 1.1em;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+  }
+
+  .roadlabels {
+    font-weight: bold;
+    letter-spacing: 3px;
+
+  }
+
+  .leaflet-container {
+    font: 12px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 9px;
+    z-index: 1000;
+    color: black;
+    white-space: normal;
+    line-height: 1.1em;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+  }
+
+  .roadlabels {
+    font-weight: bold;
+    letter-spacing: 3px;
+
+  }
+
+  .leaflet-container {
+    font: 10px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 9px;
+    z-index: 1000;
+    color: black;
+    white-space: normal;
+    line-height: 1.1em;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+  }
+
+  .roadlabels {
+    font-weight: bold;
+    letter-spacing: 3px;
+
+  }
+
+  .leaflet-container {
+    font: 10px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 9px;
+    z-index: 1000;
+    color: black;
+    white-space: normal;
+    line-height: 1.1em;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+  }
+
+  .roadlabels {
+    font-weight: bold;
+    letter-spacing: 3px;
+
+  }
+
+  .leaflet-container {
+    font: 10px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+  }
+
+}
+
+
+@media (min-width: 200px) and (max-width: 480px) {
+
+  .leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    /* font-weight: bold; */
+    font-size: 8px;
+    z-index: 1000;
+    color: black;
+    white-space: normal;
+    line-height: 1.1em;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+  }
+
+  .roadlabels {
+    font-weight: bold;
+    letter-spacing: 3px;
+
+  }
+
+  .leaflet-container {
+    font: 9px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+  }
+
+}
